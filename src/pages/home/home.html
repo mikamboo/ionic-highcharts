@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <input type="file" hidden (change)="openFile2($event)" />
+
+  <button ion-button block (click)="openFile()">Carger un fichier</button>
+
+</ion-content>
